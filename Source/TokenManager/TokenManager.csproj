@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TokenManager</RootNamespace>
     <AssemblyName>TokenManager</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -31,123 +31,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Sitecore.ContentSearch.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ContentSearch.9.0.171002\lib\NET462\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Sitecore.ContentSearch.Linq.NoReferences.8.2.161115\lib\NET452\Sitecore.ContentSearch.Linq.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ContentSearch.Linq.9.0.171002\lib\NET462\Sitecore.ContentSearch.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Sitecore.Kernel.NoReferences.8.2.161115\lib\NET452\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Kernel.9.0.171002\lib\NET462\Sitecore.Kernel.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Sitecore.Mvc.NoReferences.8.0.160115\lib\NET45\Sitecore.Mvc.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sitecore.XConnect">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Client">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Client.Configuration.XConnect">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Client.Configuration.XConnect.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Collection.Model">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Collection.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Collection.Model.Plugins">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Collection.Model.Plugins.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Configuration">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.DependencyInjection">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.DependencyInjection.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.DependencyInjection.Web">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.DependencyInjection.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Diagnostics">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Diagnostics.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Diagnostics.ApplicationInsights">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Diagnostics.ApplicationInsights.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Diagnostics.PerformanceCounters">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Diagnostics.PerformanceCounters.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Logging.Serilog">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Logging.Serilog.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Logging.Serilog.AppInsights">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Logging.Serilog.AppInsights.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Messaging">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Messaging.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Messaging.Azure">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Messaging.Azure.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Messaging.SqlServer">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Messaging.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Search">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Search.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Security">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Security.Web">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Security.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.Conditions">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.Conditions.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.Configuration">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.Engine">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.ExpressionBuilder.Model">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.ExpressionBuilder.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.Predicates">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.Predicates.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Segmentation.Predicates.Model">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Segmentation.Predicates.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Service">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Service.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Service.Plugins">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Service.Plugins.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Service.Plugins.MarketingAutomation">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Service.Plugins.MarketingAutomation.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Service.Plugins.Processing">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Service.Plugins.Processing.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.XConnect.Web">
-      <HintPath>C:\backup\Content\Website\bin\Sitecore.XConnect.Web.dll</HintPath>
+    <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Mvc.9.0.171002\lib\NET462\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -156,28 +60,22 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.Helpers.dll</HintPath>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.dll</HintPath>
-      <Private>True</Private>
-      <Private>False</Private>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -312,6 +210,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\TokenManagerPackage.zip" />
     <EmbeddedResource Include="Resources\TokenManagerSc7.zip" />
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="TokenManager.nuspec" />
     <None Include="Tokens.config">
